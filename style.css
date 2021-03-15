@@ -1,0 +1,18 @@
+#header {
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  border: 1px black solid;
+  margin: 0 auto;
+  padding: 10px;
+  width: fit-content;
+  height: auto;
+  grid-template: repeat(25, 25px) / repeat(25, 25px);
+}
+
+.box {
+  border: 1px red solid;
+  margin: 1px;
+}
